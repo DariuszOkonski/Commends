@@ -1,0 +1,16 @@
+> npm install gh-pages
+
+at package.json dependencies:
+"gh-pages": ^2.0.1
+"homepage": "http..." => first line, 
+
+at scripts:
+"predeploy": "npm run build"
+"deploy" : "gh-pages -d build"
+
+> npm run deploy
+
+if there is problem with routes on github when using Router add:
+
+<Router basename={process.env.PUBLIC_URL} >
+</Router>
