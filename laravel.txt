@@ -1,0 +1,17 @@
+LARAVEL
+=======
+Composer is tool like npm
+
+Install => XAMP => Composer
+
+> composer -v
+> composer global require laravel/installer
+
+Do it just once to install globaly
+
+> laravel new pizzahouse
+> php artisan serve
+
+> php artisen make: controller PizzaContent
+> php artisan make: migration create_pizza_table
+> php artisan migrate
